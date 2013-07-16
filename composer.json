@@ -1,0 +1,25 @@
+{
+    "name": "baetmaen/dql-bundle",
+    "type": "symfony-bundle",
+    "description": "Popular missing MySQL Functions as Extension (ie. DATE,MONTH,...)",
+    "keywords": ["baetmaen", "defaults"],
+    "homepage": "http://github.com/baetmaen/DqlBundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joerg Bingemer",
+            "email": "joerg@baetmaen.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": ">=2.3"
+    },
+    "autoload": {
+        "psr-0": { "Baetmaen\\DefaultsBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "Baetmaen/DefaultsBundle"
+}

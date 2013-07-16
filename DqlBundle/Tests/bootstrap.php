@@ -1,0 +1,13 @@
+<?php
+/**
+ * Created by JetBrains PhpStorm.
+ * User: joerg
+ * Date: 16.07.13
+ * Time: 21:32
+ */
+$file = __DIR__.'/../vendor/autoload.php';
+if (!file_exists($file)) {
+    throw new RuntimeException('Install dependencies to run test suite. "php composer.phar install --dev"');
+}
+
+require_once $file;

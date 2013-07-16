@@ -1,0 +1,3 @@
+baetmaen_dql_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: BaetmaenDqlBundle:Default:index }
