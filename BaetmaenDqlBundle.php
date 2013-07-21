@@ -1,6 +1,6 @@
 <?php
 
-namespace Baetmaen\DqlBundle\BaetmaenDqlBundle;
+namespace Baetmaen\DqlBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
