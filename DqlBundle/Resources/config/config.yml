@@ -1,0 +1,24 @@
+doctrine:
+    orm:
+        entity_managers:
+                        default:
+                            auto_mapping: true
+                            dql:
+                                datetime_functions:
+                                    date: Baetmaen\DqlBundle\Dql\Date
+#                                    dateadd: My\DefaultsBundle\Dql\DateAdd
+#                                    datediff: My\DefaultsBundle\Dql\DateDiff
+#                                    dateformat: My\DefaultsBundle\Dql\DateFormat
+#                                    day: My\DefaultsBundle\Dql\Day
+#                                    month: My\DefaultsBundle\Dql\Month
+#                                    year: My\DefaultsBundle\Dql\Year
+#                                    hour: My\DefaultsBundle\Dql\Hour
+#                                    week: My\DefaultsBundle\Dql\Week
+#                                    round: My\DefaultsBundle\Dql\Round
+#                                    md5: My\DefaultsBundle\Dql\Md5
+#                                    sha1: My\DefaultsBundle\Dql\Sha1
+#                                    sha2: My\DefaultsBundle\Dql\Sha2
+#                                    ifelse: My\DefaultsBundle\Dql\IfElse
+#                                    ifnull: My\DefaultsBundle\Dql\IfNull
+#                                    countif: My\DefaultsBundle\Dql\CountIf
+#        auto_mapping: true
