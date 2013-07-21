@@ -5,6 +5,12 @@
     "keywords": ["baetmaen", "dql", "mysql", "date"],
     "homepage": "http://github.com/baetmaen/DqlBundle",
     "license": "MIT",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/baetmaen/DqlBundle.git"
+        }
+    ],
     "authors": [
         {
             "name": "Joerg Bingemer",
